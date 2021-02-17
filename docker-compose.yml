@@ -7,9 +7,13 @@ services:
     volumes:
       - ./hello-nagios/etc/:/opt/nagios/etc/
       - ./hello-nagios/var/:/opt/nagios/var/
-      #- ./hello-nagios/ssmtp.conf:/etc/ssmtp/ssmtp.conf
+  #    - ./hello-nagios/ssmtp.conf:/etc/ssmtp/ssmtp.conf
       - ./hello-nagios/custom-plugins/:/opt/Custom-Nagios-Plugins/
     environment:
-      - NAGIOSADMIN_USER=admin
-      - NAGIOSADMIN_PASS=patata
+      - "NAGIOSADMIN_USER=nagiosadmin"
+      - "NAGIOSADMIN_PASS=patata"
       - "TZ=Europe/Madrid"
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "9025:8025"

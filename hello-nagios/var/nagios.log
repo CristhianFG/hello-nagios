@@ -192,3 +192,372 @@
 [1613562286] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
 [1613562286] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials c62sm2671448wme.16 - gsmtp
 [1613562286] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials c62sm2671448wme.16 - gsmtp)
+[1613564972] Auto-save of retention data completed successfully.
+[1613565794] Caught SIGTERM, shutting down...
+[1613565794] Successfully shutdown... (PID=24)
+[1613565796] Nagios 4.4.6 starting... (PID=25)
+[1613565796] Local time is Wed Feb 17 13:43:16 CET 2021
+[1613565796] LOG VERSION: 2.0
+[1613565796] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613565796] qh: core query handler registered
+[1613565796] qh: echo service query handler registered
+[1613565796] qh: help for the query handler registered
+[1613565796] wproc: Successfully registered manager as @wproc with query handler
+[1613565796] wproc: Registry request: name=Core Worker 34;pid=34
+[1613565796] wproc: Registry request: name=Core Worker 31;pid=31
+[1613565796] wproc: Registry request: name=Core Worker 32;pid=32
+[1613565796] wproc: Registry request: name=Core Worker 33;pid=33
+[1613565796] Successfully launched command file worker with pid 40
+[1613565886] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613565887] wproc: NOTIFY job 1 from worker Core Worker 34 is a non-check helper but exited with return code 1
+[1613565887] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613565887] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613565887] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP v6sm3722517wrx.32 - gsmtp
+[1613565887] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613565887] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613565887] wproc:   stderr line 04: [->] STARTTLS
+[1613565887] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613565887] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613565887] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613565887] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613565887] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613565887] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613565887] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613565887] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials v6sm3722517wrx.32 - gsmtp
+[1613565887] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials v6sm3722517wrx.32 - gsmtp)
+[1613566147] Caught SIGTERM, shutting down...
+[1613566147] Successfully shutdown... (PID=25)
+[1613566149] Nagios 4.4.6 starting... (PID=24)
+[1613566149] Local time is Wed Feb 17 13:49:09 CET 2021
+[1613566149] LOG VERSION: 2.0
+[1613566149] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613566149] qh: core query handler registered
+[1613566149] qh: echo service query handler registered
+[1613566149] qh: help for the query handler registered
+[1613566149] wproc: Successfully registered manager as @wproc with query handler
+[1613566149] wproc: Registry request: name=Core Worker 31;pid=31
+[1613566149] wproc: Registry request: name=Core Worker 32;pid=32
+[1613566149] wproc: Registry request: name=Core Worker 30;pid=30
+[1613566149] wproc: Registry request: name=Core Worker 29;pid=29
+[1613566149] Successfully launched command file worker with pid 38
+[1613569486] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613569487] wproc: NOTIFY job 25 from worker Core Worker 32 is a non-check helper but exited with return code 1
+[1613569487] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613569487] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613569487] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP w81sm3107541wmb.3 - gsmtp
+[1613569487] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613569487] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613569487] wproc:   stderr line 04: [->] STARTTLS
+[1613569487] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613569487] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613569487] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613569487] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613569487] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613569487] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613569487] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613569487] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials w81sm3107541wmb.3 - gsmtp
+[1613569487] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials w81sm3107541wmb.3 - gsmtp)
+[1613569749] Auto-save of retention data completed successfully.
+[1613571621] Caught SIGTERM, shutting down...
+[1613571621] Successfully shutdown... (PID=24)
+[1613571623] Nagios 4.4.6 starting... (PID=25)
+[1613571623] Local time is Wed Feb 17 15:20:23 CET 2021
+[1613571623] LOG VERSION: 2.0
+[1613571623] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613571623] qh: core query handler registered
+[1613571623] qh: echo service query handler registered
+[1613571623] qh: help for the query handler registered
+[1613571623] wproc: Successfully registered manager as @wproc with query handler
+[1613571623] wproc: Registry request: name=Core Worker 32;pid=32
+[1613571623] wproc: Registry request: name=Core Worker 31;pid=31
+[1613571623] wproc: Registry request: name=Core Worker 30;pid=30
+[1613571623] wproc: Registry request: name=Core Worker 29;pid=29
+[1613571623] Successfully launched command file worker with pid 34
+[1613571755] Caught SIGTERM, shutting down...
+[1613571755] Successfully shutdown... (PID=25)
+[1613571758] Nagios 4.4.6 starting... (PID=27)
+[1613571758] Local time is Wed Feb 17 15:22:38 CET 2021
+[1613571758] LOG VERSION: 2.0
+[1613571758] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613571758] qh: core query handler registered
+[1613571758] qh: echo service query handler registered
+[1613571758] qh: help for the query handler registered
+[1613571758] wproc: Successfully registered manager as @wproc with query handler
+[1613571758] wproc: Registry request: name=Core Worker 34;pid=34
+[1613571758] wproc: Registry request: name=Core Worker 33;pid=33
+[1613571758] wproc: Registry request: name=Core Worker 32;pid=32
+[1613571758] wproc: Registry request: name=Core Worker 31;pid=31
+[1613571758] Successfully launched command file worker with pid 35
+[1613571806] Caught SIGTERM, shutting down...
+[1613571806] Successfully shutdown... (PID=27)
+[1613571808] Nagios 4.4.6 starting... (PID=24)
+[1613571808] Local time is Wed Feb 17 15:23:28 CET 2021
+[1613571808] LOG VERSION: 2.0
+[1613571808] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613571808] qh: core query handler registered
+[1613571808] qh: echo service query handler registered
+[1613571808] qh: help for the query handler registered
+[1613571808] wproc: Successfully registered manager as @wproc with query handler
+[1613571808] wproc: Registry request: name=Core Worker 30;pid=30
+[1613571808] wproc: Registry request: name=Core Worker 31;pid=31
+[1613571808] wproc: Registry request: name=Core Worker 32;pid=32
+[1613571808] wproc: Registry request: name=Core Worker 29;pid=29
+[1613571808] Successfully launched command file worker with pid 34
+[1613571978] Caught SIGTERM, shutting down...
+[1613571981] Successfully shutdown... (PID=24)
+[1613572006] Nagios 4.4.6 starting... (PID=24)
+[1613572006] Local time is Wed Feb 17 15:26:46 CET 2021
+[1613572006] LOG VERSION: 2.0
+[1613572006] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613572006] qh: core query handler registered
+[1613572006] qh: echo service query handler registered
+[1613572006] qh: help for the query handler registered
+[1613572006] wproc: Successfully registered manager as @wproc with query handler
+[1613572006] wproc: Registry request: name=Core Worker 29;pid=29
+[1613572006] wproc: Registry request: name=Core Worker 31;pid=31
+[1613572006] wproc: Registry request: name=Core Worker 32;pid=32
+[1613572006] wproc: Registry request: name=Core Worker 30;pid=30
+[1613572006] Successfully launched command file worker with pid 33
+[1613572112] Caught SIGTERM, shutting down...
+[1613572112] Successfully shutdown... (PID=24)
+[1613572114] Nagios 4.4.6 starting... (PID=23)
+[1613572114] Local time is Wed Feb 17 15:28:34 CET 2021
+[1613572114] LOG VERSION: 2.0
+[1613572114] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613572114] qh: core query handler registered
+[1613572114] qh: echo service query handler registered
+[1613572114] qh: help for the query handler registered
+[1613572114] wproc: Successfully registered manager as @wproc with query handler
+[1613572114] wproc: Registry request: name=Core Worker 31;pid=31
+[1613572114] wproc: Registry request: name=Core Worker 30;pid=30
+[1613572114] wproc: Registry request: name=Core Worker 29;pid=29
+[1613572114] wproc: Registry request: name=Core Worker 28;pid=28
+[1613572114] Successfully launched command file worker with pid 36
+[1613572376] Caught SIGTERM, shutting down...
+[1613572376] Successfully shutdown... (PID=23)
+[1613572378] Nagios 4.4.6 starting... (PID=27)
+[1613572378] Local time is Wed Feb 17 15:32:58 CET 2021
+[1613572378] LOG VERSION: 2.0
+[1613572378] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613572378] qh: core query handler registered
+[1613572378] qh: echo service query handler registered
+[1613572378] qh: help for the query handler registered
+[1613572378] wproc: Successfully registered manager as @wproc with query handler
+[1613572378] wproc: Registry request: name=Core Worker 31;pid=31
+[1613572378] wproc: Registry request: name=Core Worker 30;pid=30
+[1613572378] wproc: Registry request: name=Core Worker 33;pid=33
+[1613572378] wproc: Registry request: name=Core Worker 32;pid=32
+[1613572378] Successfully launched command file worker with pid 39
+[1613573086] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613573086] wproc: NOTIFY job 6 from worker Core Worker 31 is a non-check helper but exited with return code 1
+[1613573086] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613573086] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613573086] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP z66sm3344831wmg.39 - gsmtp
+[1613573086] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613573086] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613573086] wproc:   stderr line 04: [->] STARTTLS
+[1613573086] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613573086] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613573086] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613573086] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613573086] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613573086] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613573086] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613573086] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials z66sm3344831wmg.39 - gsmtp
+[1613573086] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials z66sm3344831wmg.39 - gsmtp)
+[1613573309] Caught SIGTERM, shutting down...
+[1613573309] Successfully shutdown... (PID=27)
+[1613573311] Nagios 4.4.6 starting... (PID=24)
+[1613573311] Local time is Wed Feb 17 15:48:31 CET 2021
+[1613573311] LOG VERSION: 2.0
+[1613573311] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613573311] qh: core query handler registered
+[1613573311] qh: echo service query handler registered
+[1613573311] qh: help for the query handler registered
+[1613573311] wproc: Successfully registered manager as @wproc with query handler
+[1613573311] wproc: Registry request: name=Core Worker 32;pid=32
+[1613573311] wproc: Registry request: name=Core Worker 31;pid=31
+[1613573311] wproc: Registry request: name=Core Worker 29;pid=29
+[1613573311] wproc: Registry request: name=Core Worker 30;pid=30
+[1613573311] Successfully launched command file worker with pid 33
+[1613573484] Caught SIGTERM, shutting down...
+[1613573484] Successfully shutdown... (PID=24)
+[1613573486] Nagios 4.4.6 starting... (PID=25)
+[1613573486] Local time is Wed Feb 17 15:51:26 CET 2021
+[1613573486] LOG VERSION: 2.0
+[1613573486] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613573486] qh: core query handler registered
+[1613573486] qh: echo service query handler registered
+[1613573486] qh: help for the query handler registered
+[1613573486] wproc: Successfully registered manager as @wproc with query handler
+[1613573486] wproc: Registry request: name=Core Worker 30;pid=30
+[1613573486] wproc: Registry request: name=Core Worker 31;pid=31
+[1613573486] wproc: Registry request: name=Core Worker 32;pid=32
+[1613573486] wproc: Registry request: name=Core Worker 33;pid=33
+[1613573486] Successfully launched command file worker with pid 34
+[1613574169] Caught SIGTERM, shutting down...
+[1613574169] Successfully shutdown... (PID=25)
+[1613574171] Nagios 4.4.6 starting... (PID=25)
+[1613574171] Local time is Wed Feb 17 16:02:51 CET 2021
+[1613574171] LOG VERSION: 2.0
+[1613574171] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613574171] qh: core query handler registered
+[1613574171] qh: echo service query handler registered
+[1613574171] qh: help for the query handler registered
+[1613574171] wproc: Successfully registered manager as @wproc with query handler
+[1613574171] wproc: Registry request: name=Core Worker 36;pid=36
+[1613574171] wproc: Registry request: name=Core Worker 35;pid=35
+[1613574171] wproc: Registry request: name=Core Worker 34;pid=34
+[1613574171] wproc: Registry request: name=Core Worker 33;pid=33
+[1613574171] Successfully launched command file worker with pid 42
+[1613575454] Caught SIGTERM, shutting down...
+[1613575454] Successfully shutdown... (PID=25)
+[1613575456] Nagios 4.4.6 starting... (PID=24)
+[1613575456] Local time is Wed Feb 17 16:24:16 CET 2021
+[1613575456] LOG VERSION: 2.0
+[1613575456] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613575456] qh: core query handler registered
+[1613575456] qh: echo service query handler registered
+[1613575456] qh: help for the query handler registered
+[1613575456] wproc: Successfully registered manager as @wproc with query handler
+[1613575456] wproc: Registry request: name=Core Worker 30;pid=30
+[1613575456] wproc: Registry request: name=Core Worker 29;pid=29
+[1613575456] wproc: Registry request: name=Core Worker 28;pid=28
+[1613575456] wproc: Registry request: name=Core Worker 27;pid=27
+[1613575456] Successfully launched command file worker with pid 33
+[1613576509] Caught SIGTERM, shutting down...
+[1613576509] Successfully shutdown... (PID=24)
+[1613576512] Nagios 4.4.6 starting... (PID=25)
+[1613576512] Local time is Wed Feb 17 16:41:52 CET 2021
+[1613576512] LOG VERSION: 2.0
+[1613576512] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576512] qh: core query handler registered
+[1613576512] qh: echo service query handler registered
+[1613576512] qh: help for the query handler registered
+[1613576512] wproc: Successfully registered manager as @wproc with query handler
+[1613576512] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576512] wproc: Registry request: name=Core Worker 32;pid=32
+[1613576512] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576512] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576512] Successfully launched command file worker with pid 33
+[1613576572] Caught SIGTERM, shutting down...
+[1613576573] Successfully shutdown... (PID=25)
+[1613576575] Nagios 4.4.6 starting... (PID=23)
+[1613576575] Local time is Wed Feb 17 16:42:55 CET 2021
+[1613576575] LOG VERSION: 2.0
+[1613576575] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576575] qh: core query handler registered
+[1613576575] qh: echo service query handler registered
+[1613576575] qh: help for the query handler registered
+[1613576575] wproc: Successfully registered manager as @wproc with query handler
+[1613576575] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576575] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576575] wproc: Registry request: name=Core Worker 27;pid=27
+[1613576575] wproc: Registry request: name=Core Worker 28;pid=28
+[1613576575] Successfully launched command file worker with pid 33
+[1613576620] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_SVC_CHECKS;viewnext101;1613576620
+[1613576620] SERVICE ALERT: viewnext101;Jenkins;UNKNOWN;SOFT;1;Usage:
+[1613576686] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613576686] wproc: NOTIFY job 2 from worker Core Worker 28 is a non-check helper but exited with return code 1
+[1613576686] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613576686] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613576686] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP o124sm3404436wmo.41 - gsmtp
+[1613576686] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613576686] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613576686] wproc:   stderr line 04: [->] STARTTLS
+[1613576686] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613576686] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613576686] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613576686] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613576686] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613576686] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613576686] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613576686] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials o124sm3404436wmo.41 - gsmtp
+[1613576686] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials o124sm3404436wmo.41 - gsmtp)
+[1613576740] SERVICE ALERT: viewnext101;Jenkins;UNKNOWN;SOFT;2;Usage:
+[1613576772] Caught SIGTERM, shutting down...
+[1613576772] Successfully shutdown... (PID=23)
+[1613576774] Nagios 4.4.6 starting... (PID=24)
+[1613576774] Local time is Wed Feb 17 16:46:14 CET 2021
+[1613576774] LOG VERSION: 2.0
+[1613576774] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576774] qh: core query handler registered
+[1613576774] qh: echo service query handler registered
+[1613576774] qh: help for the query handler registered
+[1613576774] wproc: Successfully registered manager as @wproc with query handler
+[1613576774] wproc: Registry request: name=Core Worker 32;pid=32
+[1613576774] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576774] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576774] wproc: Registry request: name=Core Worker 29;pid=29
+[1613576774] Successfully launched command file worker with pid 38
+[1613576780] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;viewnext101;Jenkins;1613576777
+[1613576781] SERVICE NOTIFICATION: nagiosadmin;viewnext101;Jenkins;WARNING;notify-service-by-email;HTTP WARNING: HTTP/1.1 401 Unauthorized - 782 bytes in 0.615 second response time
+[1613576781] SERVICE ALERT: viewnext101;Jenkins;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 782 bytes in 0.615 second response time
+[1613576781] wproc: NOTIFY job 0 from worker Core Worker 31 is a non-check helper but exited with return code 1
+[1613576781] wproc:   host=viewnext101; service=Jenkins; contact=nagiosadmin
+[1613576781] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613576781] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP t30sm4677040wra.56 - gsmtp
+[1613576781] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613576781] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613576781] wproc:   stderr line 04: [->] STARTTLS
+[1613576781] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613576781] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613576781] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613576781] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613576781] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613576781] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613576781] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613576781] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials t30sm4677040wra.56 - gsmtp
+[1613576781] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials t30sm4677040wra.56 - gsmtp)
+[1613576856] Caught SIGTERM, shutting down...
+[1613576856] Successfully shutdown... (PID=24)
+[1613576858] Nagios 4.4.6 starting... (PID=26)
+[1613576858] Local time is Wed Feb 17 16:47:38 CET 2021
+[1613576858] LOG VERSION: 2.0
+[1613576858] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1613576858] qh: core query handler registered
+[1613576858] qh: echo service query handler registered
+[1613576858] qh: help for the query handler registered
+[1613576858] wproc: Successfully registered manager as @wproc with query handler
+[1613576858] wproc: Registry request: name=Core Worker 32;pid=32
+[1613576858] wproc: Registry request: name=Core Worker 33;pid=33
+[1613576858] wproc: Registry request: name=Core Worker 31;pid=31
+[1613576858] wproc: Registry request: name=Core Worker 30;pid=30
+[1613576858] Successfully launched command file worker with pid 34
+[1613576889] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;viewnext101;Jenkins;1613576888
+[1613576899] SERVICE NOTIFICATION: nagiosadmin;viewnext101;Jenkins;CRITICAL;notify-service-by-email;CRITICAL - Socket timeout
+[1613576899] SERVICE ALERT: viewnext101;Jenkins;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1613576900] wproc: NOTIFY job 0 from worker Core Worker 30 is a non-check helper but exited with return code 1
+[1613576900] wproc:   host=viewnext101; service=Jenkins; contact=nagiosadmin
+[1613576900] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613576900] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP d5sm4534821wrp.39 - gsmtp
+[1613576900] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613576900] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613576900] wproc:   stderr line 04: [->] STARTTLS
+[1613576900] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613576900] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613576900] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613576900] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613576900] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613576900] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613576900] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613576900] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials d5sm4534821wrp.39 - gsmtp
+[1613576900] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials d5sm4534821wrp.39 - gsmtp)
+[1613577499] SERVICE NOTIFICATION: nagiosadmin;viewnext101;Jenkins;OK;notify-service-by-email;HTTP OK: HTTP/1.1 200 OK - 46600 bytes in 0.231 second response time
+[1613577499] SERVICE ALERT: viewnext101;Jenkins;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 46600 bytes in 0.231 second response time
+[1613577500] wproc: NOTIFY job 7 from worker Core Worker 32 is a non-check helper but exited with return code 1
+[1613577500] wproc:   host=viewnext101; service=Jenkins; contact=nagiosadmin
+[1613577500] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613577500] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP j17sm3499326wmc.28 - gsmtp
+[1613577500] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613577500] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613577500] wproc:   stderr line 04: [->] STARTTLS
+[1613577500] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613577500] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613577500] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613577500] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613577500] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613577500] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613577500] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613577500] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials j17sm3499326wmc.28 - gsmtp
+[1613577500] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials j17sm3499326wmc.28 - gsmtp)
