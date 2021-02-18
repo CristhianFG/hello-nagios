@@ -561,3 +561,22 @@
 [1613577500] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
 [1613577500] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials j17sm3499326wmc.28 - gsmtp
 [1613577500] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials j17sm3499326wmc.28 - gsmtp)
+[1613580286] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1613580286] wproc: NOTIFY job 34 from worker Core Worker 33 is a non-check helper but exited with return code 1
+[1613580286] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1613580286] wproc:   early_timeout=0; exited_ok=1; wait_status=256; error_code=0;
+[1613580286] wproc:   stderr line 01: [<-] 220 smtp.gmail.com ESMTP l38sm3577845wmp.19 - gsmtp
+[1613580286] wproc:   stderr line 02: [->] EHLO raspberrypi
+[1613580286] wproc:   stderr line 03: [<-] 250 SMTPUTF8
+[1613580286] wproc:   stderr line 04: [->] STARTTLS
+[1613580286] wproc:   stderr line 05: [<-] 220 2.0.0 Ready to start TLS
+[1613580286] wproc:   stderr line 06: [->] EHLO raspberrypi
+[1613580286] wproc:   stderr line 07: [<-] 250 SMTPUTF8
+[1613580286] wproc:   stderr line 08: [->] AUTH LOGIN
+[1613580286] wproc:   stderr line 09: [<-] 334 VXNlcm5hbWU6
+[1613580286] wproc:   stderr line 10: [->] bXlnbWFpbGFjY291bnRAZ21haWwuY29t
+[1613580286] wproc:   stderr line 11: [<-] 334 UGFzc3dvcmQ6
+[1613580286] wproc:   stderr line 12: [<-] 535 5.7.8  https://support.google.com/mail/?p=BadCredentials l38sm3577845wmp.19 - gsmtp
+[1613580286] wproc:   stderr line 13: sendmail: Authorization failed (535 5.7.8  https://support.google.com/mail/?p=BadCredentials l38sm3577845wmp.19 - gsmtp)
+[1613580292] Caught SIGTERM, shutting down...
+[1613580292] Successfully shutdown... (PID=26)
